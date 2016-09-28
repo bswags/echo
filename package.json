@@ -1,0 +1,25 @@
+{
+  "name": "echo",
+  "version": "1.0.0",
+  "description": "echoes requests",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bwags",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^1.2.4",
+    "koa-bodyparser": "^2.2.0",
+    "koa-logger": "^1.3.0",
+    "koa-router": "^5.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "nodemon": "^1.10.2"
+  }
+}
